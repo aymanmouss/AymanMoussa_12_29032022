@@ -1,0 +1,16 @@
+.greetings {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.hello {
+  margin-bottom: 31px;
+  font-size: 48px;
+}
+.userName {
+  color: #fe0202;
+}
+.message {
+  margin-top: 0;
+  font-size: 18px;
+}

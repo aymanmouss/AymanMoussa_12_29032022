@@ -1,0 +1,24 @@
+.header {
+  color: #fff;
+  background-color: #000000;
+  margin: 0;
+  padding: 20px 30px 20px 5px;
+  min-width: 1024px;
+  /* we will remove the right and left padding after and 
+  replace it with margin from nav */
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 28px;
+  margin-right: 67px;
+}
+.nav-item {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+.logo {
+  width: 178px;
+}

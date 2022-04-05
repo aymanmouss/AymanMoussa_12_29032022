@@ -1,0 +1,44 @@
+.nutritionTracker {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: #fbfbfb;
+  padding: 20px 40px;
+}
+.nutritionTracker:not(:last-child) {
+  margin-bottom: 80px;
+}
+@media only screen and (max-width: 1313px) {
+  .nutritionTracker:not(:last-child) {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  .nutritionTracker {
+    margin-top: 20px;
+  }
+}
+
+.trackerIcon {
+  padding: 19px 20.5px;
+  border-radius: 6px;
+  width: 18px;
+}
+.tracker-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+}
+.tracker-data {
+  margin: 0 0 5px 0;
+  font-weight: 700;
+  font-size: 20px;
+  color: #282d30;
+}
+.tracker-title {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #74798c;
+}

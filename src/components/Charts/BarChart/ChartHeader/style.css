@@ -1,0 +1,27 @@
+.chartHeader {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 40px;
+}
+.barChat-title {
+  font-size: 15px;
+}
+.chartBar-legend {
+  display: flex;
+}
+.l1 {
+  margin-right: 30px;
+}
+.l1,
+.l2 {
+  font-size: 14px;
+}
+.fa-solid,
+.fa-circle {
+  font-size: 8px;
+  margin-right: 15px;
+}
+.l2 .fa-circle {
+  color: #e60100;
+}

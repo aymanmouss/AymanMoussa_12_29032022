@@ -1,0 +1,8 @@
+.tooltipContainer {
+  background-color: #e60100;
+  color: #fff;
+  padding: 3px 9px;
+}
+.tooltipLine:nth-child(1) {
+  margin-bottom: 30px;
+}
