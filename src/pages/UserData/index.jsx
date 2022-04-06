@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Greetings from "../../components/Greetings";
 
 function UserDtata({ userFirstName }) {
@@ -8,4 +9,11 @@ function UserDtata({ userFirstName }) {
     </div>
   );
 }
+UserDtata.propTypes = {
+  trackerIcon: PropTypes.string.isRequired,
+};
+
+UserDtata.defaultProps = {
+  trackerIcon: "",
+};
 export default UserDtata;

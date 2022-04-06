@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import "./style.css";
 const tool = (payload, active) => {
   if (active && payload) {
@@ -12,4 +13,14 @@ const tool = (payload, active) => {
 function CustomTooltip({ payload, active }) {
   return tool(payload, active);
 }
+
+CustomTooltip.propTypes = {
+  payload: PropTypes.array,
+  active: PropTypes.bool.isRequired,
+};
+
+CustomTooltip.defaultProps = {
+  payload: [],
+  active: false,
+};
 export default CustomTooltip;

@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import "./style.css";
 function Greetings({ userFirstName }) {
   return (
@@ -11,4 +12,11 @@ function Greetings({ userFirstName }) {
     </div>
   );
 }
+Greetings.propTypes = {
+  userFirstName: PropTypes.string.isRequired,
+};
+
+Greetings.defaultProps = {
+  userFirstName: "",
+};
 export default Greetings;

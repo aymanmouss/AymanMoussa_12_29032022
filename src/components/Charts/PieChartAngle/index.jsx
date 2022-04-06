@@ -1,9 +1,10 @@
+import PropTypes from "prop-types";
 import { PieChart, Pie, Cell } from "recharts";
 import "./style.css";
 
 const COLORS = ["#E60000", "#fbfbfb"];
 
-export default function PieChartAngle({ score }) {
+function PieChartAngle({ score }) {
   return (
     <PieChart width={285} height={263} className='pieChartAngle'>
       <Pie
@@ -25,3 +26,11 @@ export default function PieChartAngle({ score }) {
     </PieChart>
   );
 }
+PieChartAngle.propTypes = {
+  score: PropTypes.array.isRequired,
+};
+
+PieChartAngle.defaultProps = {
+  score: [],
+};
+export default PieChartAngle;

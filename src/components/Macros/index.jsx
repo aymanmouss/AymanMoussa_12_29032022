@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import NutritionTracker from "../NutritionTracker";
 import { ReactComponent as CaloriesIcon } from "../../assets/Calories-icon.svg";
 import { ReactComponent as ProteinesIcon } from "../../assets/Proteines-icon.svg";
@@ -36,4 +37,11 @@ function Macros({ macrosData }) {
     </div>
   );
 }
+Macros.propTypes = {
+  macrosData: PropTypes.object.isRequired,
+};
+
+Macros.defaultProps = {
+  macrosData: {},
+};
 export default Macros;
