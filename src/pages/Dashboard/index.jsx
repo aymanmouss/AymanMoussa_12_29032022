@@ -1,6 +1,5 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import PropTypes from "prop-types";
 import "./style.css";
 import UserDtata from "../UserData";
 import SideBar from "../../components/SideBar";

@@ -1,4 +1,3 @@
-import { ReactComponent as CaloriesIcon } from "../../assets/Calories-icon.svg";
 import PropTypes from "prop-types";
 import "./style.css";
 function NutritionTracker({ trackerIcon, iconBackground, value, title }) {
