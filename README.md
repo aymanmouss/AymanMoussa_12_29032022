@@ -1,5 +1,5 @@
 
-## Launching the API on localhost 3000 
+## 1- Launching the API on localhost 3000 
 
 - Fork the repository https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard.git
 - npm install
@@ -23,7 +23,7 @@ This project includes four endpoints that you will be able to use:
 - `http://localhost:3000/user/12/performance` - Retrieves the performance of the user with id 12
 - `http://localhost:3000/user/18` - Retrieves user 18's main information.
 ### 
-## Run the APP
+## 2- Run the APP
 
 ### `npm start`
 
