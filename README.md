@@ -1,6 +1,6 @@
-### API
+## 1 API
 
-## 1 Launching the API on localhost 3000 
+### Launching the API on localhost 3000 
 
 - Fork the repository https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard.git
 - npm install
