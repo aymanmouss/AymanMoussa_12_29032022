@@ -1,13 +1,12 @@
-## 1 API
 
-### Launching the API on localhost 3000 
+## Launching the API on localhost 3000 
 
 - Fork the repository https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard.git
 - npm install
 - npm start
 
 ### 
-## Possible endpoints
+### Possible endpoints
 
 This project includes four endpoints that you will be able to use: 
 
@@ -19,16 +18,17 @@ This project includes four endpoints that you will be able to use:
 
 **Warning, currently only two users have been mocked. They have userId 12 and 18 respectively.**
 
-## Examples of queries
+### Examples of queries
 
 - `http://localhost:3000/user/12/performance` - Retrieves the performance of the user with id 12
 - `http://localhost:3000/user/18` - Retrieves user 18's main information.
 ### 
+## Run the APP
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
+Open [http://localhost:3001](http://localhost:3001/dashboard/12) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
